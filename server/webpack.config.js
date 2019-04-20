@@ -14,7 +14,7 @@ const config = {
   target: 'node',
   output: {
     // Puts the output at the root of the dist folder
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, '../build'),
     filename: 'index.js'
   },
   resolve: {
